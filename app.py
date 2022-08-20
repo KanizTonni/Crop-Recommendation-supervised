@@ -55,5 +55,5 @@ def diabetes_pred(input_parameters : model_input):
 
     prediction = RFclassifier.predict([[N,P,K,temperature,humidity,ph,rainfall]])
     print(prediction)
-    return prediction[0]
+    return prediction[0].title()
 
