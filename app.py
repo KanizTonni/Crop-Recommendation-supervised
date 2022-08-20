@@ -36,7 +36,7 @@ class model_input(BaseModel):
     
 
 # loading the saved model
-RF_pickle_in = open("RandomForest.pkl","rb")
+RF_pickle_in = open("RaandomForest.pkl","rb")
 RFclassifier=pickle.load(RF_pickle_in)
 
 @app.post('/crop-predict')
